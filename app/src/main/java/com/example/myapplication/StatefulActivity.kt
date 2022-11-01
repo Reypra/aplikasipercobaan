@@ -22,8 +22,9 @@ class StatefulActivity: ComponentActivity() {
 @Preview(showBackground = true, showSystemUi = true)
 @Composable
 fun EchoText() {
-    Column() {
-        Text(text = "Bring Me The Horizon")
+    Column {
+        ->
+        Text(text = "LogoAlbum")
         OutlinedTextField(value = "Default Value", onValueChange = {})
     }
 }
