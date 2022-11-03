@@ -62,13 +62,42 @@ fun showLogoAlbum() {
                     modifier = Modifier.fillMaxSize()
                 ) {
                     Image(
-                        painter = painterResource(id = R.drawable.sempiternal),
-                        contentDescription = "Album Sempiternal",
+                        painter = painterResource(id = R.drawable.count),
+                        contentDescription = "Album Count Your Blessing",
                         alignment = Alignment.Center,
                         modifier = Modifier.padding(8.dp)
                     )
                     Text(
-                        text = "Sempiternal",
+                        text = "Count Your Blessing",
+                        fontSize = 16.sp,
+                        color = Color.White,
+                        textAlign = TextAlign.Center
+                    )
+                    Text(
+                        text = "BRing Me The Horizon",
+                        fontSize = 14.sp,
+                        color = Color.White,
+                        textAlign = TextAlign.Center
+                    )
+                }
+            }
+            Surface(
+                color = Color(0xff004170),
+                modifier = Modifier.size(surfaceWidth.dp, surfaceHeight.dp)
+            ) {
+                Column(
+                    horizontalAlignment = Alignment.CenterHorizontally,
+                    verticalArrangement = Arrangement.Center,
+                    modifier = Modifier.fillMaxSize()
+                ) {
+                    Image(
+                        painter = painterResource(id = R.drawable.suicide),
+                        contentDescription = "Album Suicide Season",
+                        alignment = Alignment.Center,
+                        modifier = Modifier.padding(8.dp)
+                    )
+                    Text(
+                        text = "Suicide Season",
                         fontSize = 16.sp,
                         color = Color.White,
                         textAlign = TextAlign.Center
@@ -82,7 +111,40 @@ fun showLogoAlbum() {
                 }
             }
             Surface(
-                color = Color(0xff004170),
+                color = Color(0xffecf3fd),
+                modifier = Modifier.size(surfaceWidth.dp, surfaceHeight.dp)
+            ) {
+                Column(
+                    horizontalAlignment = Alignment.CenterHorizontally,
+                    verticalArrangement = Arrangement.Center,
+                    modifier = Modifier.fillMaxSize()
+                ) {
+                    Image(
+                        painter = painterResource(id = R.drawable.sempiternal),
+                        contentDescription = "Album Sempiternal",
+                        alignment = Alignment.Center,
+                        modifier = Modifier.padding(12.dp)
+                    )
+                    Text(
+                        text = "Sempiternal",
+                        fontSize = 16.sp,
+                        color = Color.DarkGray,
+                        textAlign = TextAlign.Center
+                    )
+                    Text(
+                        text = "Bring Me The Horizon",
+                        fontSize = 14.sp,
+                        color = Color.DarkGray,
+                        textAlign = TextAlign.Center
+                    )
+                }
+            }
+        }
+        Row(
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+            Surface(
+                color = Color(0xff004D98),
                 modifier = Modifier.size(surfaceWidth.dp, surfaceHeight.dp)
             ) {
                 Column(
@@ -111,7 +173,7 @@ fun showLogoAlbum() {
                 }
             }
             Surface(
-                color = Color(0xffecf3fd),
+                color = Color(0xff6CABDD),
                 modifier = Modifier.size(surfaceWidth.dp, surfaceHeight.dp)
             ) {
                 Column(
@@ -121,30 +183,26 @@ fun showLogoAlbum() {
                 ) {
                     Image(
                         painter = painterResource(id = R.drawable.amo),
-                        contentDescription = "Album Amo",
+                        contentDescription = "Album AMO",
                         alignment = Alignment.Center,
-                        modifier = Modifier.padding(12.dp)
+                        modifier = Modifier.padding(8.dp)
                     )
                     Text(
                         text = "AMO",
                         fontSize = 16.sp,
-                        color = Color.DarkGray,
+                        color = Color.White,
                         textAlign = TextAlign.Center
                     )
                     Text(
                         text = "Bring Me The Horizon",
                         fontSize = 14.sp,
-                        color = Color.DarkGray,
+                        color = Color.White,
                         textAlign = TextAlign.Center
                     )
                 }
             }
-        }
-        Row(
-            verticalAlignment = Alignment.CenterVertically
-        ) {
             Surface(
-                color = Color(0xff004D98),
+                color = Color(0xffDA291C),
                 modifier = Modifier.size(surfaceWidth.dp, surfaceHeight.dp)
             ) {
                 Column(
@@ -154,12 +212,12 @@ fun showLogoAlbum() {
                 ) {
                     Image(
                         painter = painterResource(id = R.drawable.post),
-                        contentDescription = "Album Post Human Survival Horror",
+                        contentDescription = "Album Post Human: Survival Horror",
                         alignment = Alignment.Center,
                         modifier = Modifier.padding(8.dp)
                     )
                     Text(
-                        text = "Post HUman Survival Horror",
+                        text = "Post Human Survival Horror",
                         fontSize = 16.sp,
                         color = Color.White,
                         textAlign = TextAlign.Center
